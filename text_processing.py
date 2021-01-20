@@ -65,3 +65,8 @@ def no_vowels(input_string):
     import re
     no_vowel_string = re.sub('[aeiou]', '', input_string)
     return no_vowel_string
+
+if __name__ == '__main__':
+    pass
+    # import doctest
+    # doctest.testmod()
