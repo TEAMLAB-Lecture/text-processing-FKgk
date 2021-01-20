@@ -63,5 +63,5 @@ def no_vowels(input_string):
             'W lv Pythn!'
     """
     import re
-    no_vowel_string = re.sub('[aeiou]', '', input_string)
+    no_vowel_string = re.sub('[aAeEiIoOuU]', '', input_string)
     return no_vowel_string
